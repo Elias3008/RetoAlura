@@ -84,7 +84,7 @@
         margin: 10px 5px 5px 45px;
     }
 }
-@media screen and (max-width:360px) {
+@media screen and (max-width:361px) {
     
     #cabecera {
         margin: 20px 0px 10px 0px;
@@ -182,6 +182,23 @@
         display: block;
         margin: 170px 20px 20px 45px;
     }
+    
+
+    
+}
+@media screen and (max-width:415px) {
+    
+#cabecera {
+    margin: 30px 0px 25px 25px;
+    width: 100%;
+}
+#cajaTexto {
+    display: block;
+    float: left;
+    width: 80%;
+    margin: 20px 20px 0px 45px;
+}
+    
     
 
     
