@@ -186,20 +186,61 @@
 
     
 }
-@media screen and (max-width:415px) {
+@media screen and (max-width:391px) {
     
 #cabecera {
-    margin: 30px 0px 25px 25px;
+    margin: 30px 0px 25px 0px;
     width: 100%;
 }
 #cajaTexto {
     display: block;
     float: left;
     width: 80%;
-    margin: 20px 20px 0px 45px;
+    margin: 20px 20px 0px 40px;
 }
+#leyendaBotones {
+    color: #495057;
+    margin-left: 35px;
+    font-size: 12px;
+}
+#encriptar {
+    background-color: #0A3871;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+    margin: 10px 5px 5px 20px;
+}
+#desencriptar {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 300;
+    border: 1px solid #0A3871;
+    margin: 10px 20px 5px;
+}
+#historial {
+    display: block;
+    background-color: white;
+    width: 75%;
+    height: 10%;
+    margin: 20px 30px 20px 0px;
+    border-radius: 32px;
+    box-shadow: 10px 7px 21px 0px rgba(0,0,0,0.17);
+    padding: 0px 20px;
+}
+#traduccion {
+    display: block;
+    background-color: white;
+    width: 75%;
+    height: 10%;
+    margin: 20px 30px 20px 0px;
+    border-radius: 32px;
+    box-shadow: 10px 7px 21px 0px rgba(0,0,0,0.17);
+} 
+#botonC {
     
-    
-
-    
+    display: block;
+    margin: 25px 0px 20px 50px;
+}
 }
