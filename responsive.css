@@ -182,9 +182,6 @@
         display: block;
         margin: 170px 20px 20px 45px;
     }
-    
-
-    
 }
 @media screen and (max-width:391px) {
     
@@ -196,11 +193,11 @@
     display: block;
     float: left;
     width: 80%;
-    margin: 20px 20px 0px 40px;
+    margin: 20px 20px 0px 35px;
 }
 #leyendaBotones {
     color: #495057;
-    margin-left: 35px;
+    margin-left: 30px;
     font-size: 12px;
 }
 #encriptar {
@@ -209,7 +206,7 @@
     font-size: 16px;
     font-weight: 300;
     border: none;
-    margin: 10px 5px 5px 20px;
+    margin: 10px 5px 5px -15px;
 }
 #desencriptar {
     background-color: #D8DFE8;
@@ -217,14 +214,14 @@
     font-size: 16px;
     font-weight: 300;
     border: 1px solid #0A3871;
-    margin: 10px 20px 5px;
+    margin: 10px -15px 5px;
 }
 #historial {
     display: block;
     background-color: white;
     width: 75%;
-    height: 10%;
-    margin: 20px 30px 20px 0px;
+    height: 200px;
+    margin: 20px 25px 20px 0px;
     border-radius: 32px;
     box-shadow: 10px 7px 21px 0px rgba(0,0,0,0.17);
     padding: 0px 20px;
@@ -234,13 +231,28 @@
     background-color: white;
     width: 75%;
     height: 10%;
-    margin: 20px 30px 20px 0px;
+    margin: 20px 23px 20px 0px;
     border-radius: 32px;
     box-shadow: 10px 7px 21px 0px rgba(0,0,0,0.17);
+    display: none;
 } 
-#botonC {
-    
-    display: block;
-    margin: 25px 0px 20px 50px;
+#traduccion #encriptacion {
+    margin: 15px 5px 5px;
+    height: 150px;
+    border: none;
+    resize: none;
 }
+#botonC {
+    display: block;
+    margin: 25px 0px 20px 35px;
+}
+#leyendaHistorial {
+    display: block;
+    text-align: center;
+    margin-top: 0%;
+    position: relative;
+    top: 50px;
+    font-size: 15px;
+}
+
 }
