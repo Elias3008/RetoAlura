@@ -1,0 +1,188 @@
+@media screen and (max-width:768px) {
+    #cajaTexto {
+        display: block;
+        float: left;
+        width: 80%;
+        margin: 20px 20px 0px 73px;
+    }
+
+    #texto{
+        width: 100%;
+        height: 700px;
+    }
+
+    #leyendaBotones {
+        color: #495057;
+        margin-left: 60px;
+        font-size: 12px;
+    }
+    #botones {
+        margin: 10px 0px 10px 10px;
+        display: block;
+    }
+    .botonesP {
+        width: 250px;
+        height: 60px;
+        border-radius: 24px;
+    }
+    #historial {
+        display: block;
+        background-color: white;
+        width: 75%;
+        height: 10%;
+        margin: 20px 75px 20px 0px;
+        border-radius: 32px;
+        box-shadow: 10px 7px 21px 0px rgba(0,0,0,0.17);
+        padding: 0px 20px;
+    }
+
+    #historial #muneco {
+        display: none;
+        
+    }
+    #traduccion {
+        display: block;
+        background-color: white;
+        width: 75%;
+        height: 10%;
+        margin: 20px 75px 20px 0px;
+        border-radius: 32px;
+        box-shadow: 10px 7px 21px 0px rgba(0,0,0,0.17);
+        display: none;
+        
+        
+    }
+    #leyendaHistorial {
+        display: block;
+        text-align: center;
+        margin-top: 0%;
+        position: relative;
+        top: 65px;
+        
+    }
+    #encriptacion{
+        width: 95%;
+        height: 100px;
+        
+    }
+    #traduccion #encriptacion {
+        margin: 20px 10px;
+        border: none;
+        resize: none;
+    }
+    #botonC {
+        margin: 0 auto;
+        display: block;
+        margin: 10px 0px 20px 175px;
+    }
+    #encriptar {
+        background-color: #0A3871;
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+        border: none;
+        margin: 10px 5px 5px 45px;
+    }
+}
+@media screen and (max-width:360px) {
+    
+    #cabecera {
+        margin: 20px 0px 10px 0px;
+        width: 360px;
+    }
+    #cajaTexto {
+        display: block;
+        width: 80%;
+        margin: 20px 0px 0px 35px;
+    }
+    #texto{
+        width: 100%;
+        height: 40%;
+    }
+    .botonesP {
+        width: 300px;
+        height: 50px;
+        border-radius: 24px;
+    }
+    #leyendaBotones {
+        color: #495057;
+        margin-left: 30px;
+        font-size: 12px;
+    }
+    #botones {
+        margin: 10px 0px 10px 10px;
+        display: block;
+    }
+    #encriptar {
+        background-color: #0A3871;
+        color: white;
+        font-size: 12px;
+        font-weight: 300;
+        border: none;
+        margin: 10px 5px 5px -15px;
+    }
+    #desencriptar {
+        background-color: #D8DFE8;
+        color: #0A3871;
+        font-size: 13px;
+        font-weight: 300;
+        border: 1px solid #0A3871;
+        margin: 10px -15px 5px;
+    }
+    #traduccion {
+        display: block;
+        background-color: white;
+        width: 75%;
+        height: 100px;
+        margin: 20px 75px 20px 0px;
+        border-radius: 32px;
+        box-shadow: 10px 7px 21px 0px rgba(0,0,0,0.17);
+        display: none;
+    }
+    #leyendaHistorial {
+        display: block;
+        text-align: center;
+        margin-top: 0%;
+        position: relative;
+        top: 65px;
+        
+    }
+    #historial {
+        display: block;
+        background-color: white;
+        width: 60%;
+        height: 150px;
+        margin: 15px 53px 20px 0px;
+        border-radius: 32px;
+        box-shadow: 10px 7px 21px 0px rgba(0,0,0,0.17); 
+    }
+    #leyendaHistorial {
+        display: block;
+        text-align: center;
+        margin-top: 0%;
+        position: relative;
+        top: 20px;
+        font-size: 15px;
+    }
+    #leyendaHistorial h2 {
+        margin-bottom: 10px;
+    }
+    #traduccion {
+        display: block;
+        background-color: white;
+        width: 80%;
+        height: 300px;
+        margin: 20px 15px 15px 0px;
+        border-radius: 32px;
+        box-shadow: 10px 7px 21px 0px rgba(0,0,0,0.17);
+        display: none;
+    }
+    #botonC {
+        margin: 0 auto;
+        display: block;
+        margin: 170px 20px 20px 45px;
+    }
+    
+
+    
+}

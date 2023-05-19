@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Encriptador</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link rel="stylesheet" href="estilos.css" type="text/css">
+        <link rel="stylesheet" href="responsive.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header id="cabecera">
+            <div>
+                <img src="Imagenes/Logo.png" alt="Logo" id="Logo">
+            </div>
+        </header>
+
+        <main>
+            <div id="cajaTexto">
+                    <textarea name="texto" id="texto" cols="60" rows="16" placeholder="Escriba el texto aqui"></textarea>
+
+                    <div id="botones">
+
+                        <div id="leyendaBotones">
+                            <p> <img src="Imagenes/Vector.png" alt="vector"> Solo letras mayusculas sin acentos</p>
+                        </div>
+
+                        <button class="botonesP" id="encriptar" onclick="fEncriptar()">Encriptar </button>
+                        <button class="botonesP" id="desencriptar" onclick="fDesencriptar()"> Desencriptar </button>
+                    </div>
+                
+            </div>
+
+            <div id="historial">
+                <div id="muneco">
+                    <img src="Imagenes/Muneco.png" alt="">
+                </div>
+                <div id="leyendaHistorial">
+                    <h2>Ningun texto fue encontrado</h2>
+                    <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+            </div>
+            
+            <div id="traduccion">
+                
+                <textarea name="encriptacion" id="encriptacion" cols="16" rows="19"></textarea>
+
+                <div id="botonC">
+                    <button id="copiar" onclick="fCopiar()"> Copiar </button>
+                </div>
+
+            </div> 
+            
+        </main>
+
+        
+    </body>
+    <script src="script.js"></script>
+</html>
