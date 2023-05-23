@@ -10,6 +10,9 @@ body{
     height: 100%;
     
 }
+.clearboth{
+    clear: both;
+}
 .botonesP{
     width: 328px;
     height: 60px;
@@ -23,17 +26,19 @@ button:hover{
     width: 70%;
 }
 #texto{
-    border: 2px;
+    border: none;
     background: none;
     resize: none;
     color: #0A3871;
     font-size: 25px;
-    resize: vertical;
+    outline: none;
+    
     
 }
 #texto::placeholder{
     color: #0A3871;
     font-size: 25px;
+    
 }
 #cajaTexto{
     display: block;
@@ -85,9 +90,10 @@ margin-bottom: 150px;
 #traduccion #encriptacion{
 margin: 31px 20px 10px;
  border: none;
- resize: vertical;
+ resize: none;
  color: #0A3871;
  font-size: 25px;
+ 
 
 }
 
@@ -131,4 +137,37 @@ margin: 31px 20px 10px;
     border: 1px solid #0A3871;
     margin: 10px 5px 5px ;
 }
+footer{
+    width: 100%;
+    height: 60px;
+    margin-top: 60px;
+    display: block;
+    background-color: #D8DFE8;
+}
+#redesC{
+    padding: 12px;
+    
+}
+#git{
+    margin-right: 450px;
+}
+#link{
+    margin-left: 450px;
+}
+#git img{
+    width: 40px;
+    display: flex;
+    float: right;
+    transition: all 500ms;
+}
+#link img{
+    width: 40px;
+    display: flex;
+    float: left;
+    transition: all 500ms;
+}
+#redesC a img:hover{
+    transform: scale(1.2);
+}
+
 
