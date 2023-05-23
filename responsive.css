@@ -83,6 +83,12 @@
         border: none;
         margin: 10px 5px 5px 45px;
     }
+    #git{
+        margin-right: 250px;
+    }
+    #link{
+        margin-left: 250px;
+    }
 }
 
 @media only screen and (min-width: 300px) and (max-width: 393px){
@@ -182,7 +188,14 @@
         display: block;
         margin: 170px 20px 20px 45px;
     }
+    #git{
+        margin-right: 80px;
+    }
+    #link{
+        margin-left: 80px;
+    }
 }
+
 @media only screen and (min-width: 393px) and (max-width: 500px){
     #cabecera {
         margin: 30px 0px 25px 20px;
@@ -239,5 +252,11 @@
         margin: 0 auto;
         display: block;
         margin: 10px 0px 20px 50px;
+    }
+    #git {
+        margin-right: 85px;
+    }
+    #link {
+        margin-left: 85px;
     }
 }
